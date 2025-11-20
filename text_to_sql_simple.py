@@ -8,6 +8,7 @@ Session = sessionmaker(bind=engine)
 session = Session()
 # Cambio hecho por Juan David Moreno Carpio para prueba de colaboración
 #comentario de porueba 2
+#cambio 3git push
 
 # --- Definición del modelo ---
 class Persona(Base):
