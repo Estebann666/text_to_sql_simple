@@ -1,0 +1,19 @@
+[33mcommit 7a83181cbe68f0ce45e95be6726c43caa7a467a9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: LC2792 <leonardo_jcantillo@soy.sena.edu.co>
+Date:   Thu Nov 20 17:20:57 2025 -0500
+
+    Descripción del cambio
+
+[1mdiff --git a/text_to_sql_simple.py b/text_to_sql_simple.py[m
+[1mindex 418d135..bcf433f 100644[m
+[1m--- a/text_to_sql_simple.py[m
+[1m+++ b/text_to_sql_simple.py[m
+[36m@@ -8,7 +8,7 @@[m [mSession = sessionmaker(bind=engine)[m
+ session = Session()[m
+ # Cambio hecho por Juan David Moreno Carpio para prueba de colaboración[m
+ #comentario de porueba 2[m
+[31m-#cambio 3git push[m
+[32m+[m[32m#cambio 3 juan[m
+ [m
+ # --- Definición del modelo ---[m
+ class Persona(Base):[m
