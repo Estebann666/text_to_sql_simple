@@ -6,14 +6,12 @@ Base = declarative_base()
 engine = create_engine("sqlite:///personas.db", echo=True)
 Session = sessionmaker(bind=engine)
 session = Session()
-# Cambio hecho por Juan David Moreno Carpio para prueba de colaboración
-#comentario de porueba 2
-#cambio 3 juan
+#cambios por decima vez#
 
 # --- Definición del modelo ---
 class Persona(Base):
     __tablename__ = "personas"
-# Cambio realizado por Juan para prueba
+
 
     id = Column(Integer, primary_key=True)
     nombre = Column(String)
