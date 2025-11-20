@@ -13,6 +13,7 @@ session = Session()
 # --- Definición del modelo ---
 class Persona(Base):
     __tablename__ = "personas"
+# Cambio realizado por Juan para prueba
 
     id = Column(Integer, primary_key=True)
     nombre = Column(String)
