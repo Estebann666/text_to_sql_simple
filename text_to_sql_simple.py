@@ -5,7 +5,7 @@ from sqlalchemy.orm import declarative_base, sessionmaker
 Base = declarative_base()
 engine = create_engine("sqlite:///personas.db", echo=True)
 Session = sessionmaker(bind=engine)
-session = Session()
+#12345
 #cambios por decima vez#
 # soy yo 
 # prueba
