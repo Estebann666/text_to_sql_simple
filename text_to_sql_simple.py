@@ -9,8 +9,7 @@ session = Session()
 #cambios por decima vez#
 # soy yo 
 # prueba
-# faul
-# --- Definición del modelo ---
+#1625# Definición del modelo de datos
 class Persona(Base):
     #123456
     __tablename__ = "personas"
