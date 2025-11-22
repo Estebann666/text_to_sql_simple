@@ -15,7 +15,7 @@ class Persona(Base):
     #123456
     __tablename__ = "personas"
 
-
+git
     id = Column(Integer, primary_key=True)
     nombre = Column(String)
     edad = Column(Integer)
