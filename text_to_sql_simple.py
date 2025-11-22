@@ -6,7 +6,7 @@ Base = declarative_base()
 engine = create_engine("sqlite:///personas.db", echo=True)
 Session = sessionmaker(bind=engine)
 #12345
-#cambios por decima vez#
+#2541255555
 # soy yo 
 # prueba
 #1625# Definición del modelo de datos
