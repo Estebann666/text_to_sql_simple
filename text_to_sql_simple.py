@@ -8,6 +8,7 @@ Session = sessionmaker(bind=engine)
 session = Session()
 #cambios por decima vez#
 # soy yo 
+# prueba
 # --- Definición del modelo ---
 class Persona(Base):
     #123456
