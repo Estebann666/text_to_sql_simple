@@ -10,7 +10,7 @@ session = Session()
 # soy yo 
 # prueba
 # faul
-# --- Definición del modelo ---
+# --- Definición del modela --
 class Persona(Base):
     #123456
     __tablename__ = "personas"
