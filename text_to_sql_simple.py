@@ -1,8 +1,11 @@
 from sqlalchemy import create_engine, Column, Integer, String, text
 from sqlalchemy.orm import declarative_base, sessionmaker
+<<<<<<< HEAD
 
 # ESTEBAN
 # --- Configuración básica ---
+=======
+>>>>>>> 6a2a19c078ad8431215d4b6115b2d023772d909f
 
 # comentario de antony gonzalez--- Configuración básica --- 
 Base = declarative_base()
@@ -10,12 +13,15 @@ engine = create_engine("sqlite:///personas.db", echo=True)
 Session = sessionmaker(bind=engine)
 session = Session()
 #cambios por decima vez#
-
-# --- Definición del modelo ---
+# soy yo 
+# prueba
+# faul
+# --- Definición del modela --
 class Persona(Base):
+    #123456
     __tablename__ = "personas"
 
-
+git
     id = Column(Integer, primary_key=True)
     nombre = Column(String)
     edad = Column(Integer)
