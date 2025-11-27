@@ -1,12 +1,10 @@
 from sqlalchemy import create_engine, Column, Integer, String, text
 from sqlalchemy.orm import declarative_base, sessionmaker
-<<<<<<< HEAD
+
 # ESTEBAN
 # --- Configuración básica ---
-=======
 
 # comentario de antony gonzalez--- Configuración básica --- 
->>>>>>> f098afafd4b5c6ac2f56ec28bc2bcd5f234f956a
 Base = declarative_base()
 engine = create_engine("sqlite:///personas.db", echo=True)
 Session = sessionmaker(bind=engine)
