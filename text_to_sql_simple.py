@@ -2,7 +2,7 @@ from sqlalchemy import create_engine, Column, Integer, String, text
 from sqlalchemy.orm import declarative_base, sessionmaker
 <<<<<<< HEAD
 
-# ESTEBAN
+# ESTEBAN ESCOBAR
 # --- Configuración básica ---
 =======
 >>>>>>> 6a2a19c078ad8431215d4b6115b2d023772d909f
